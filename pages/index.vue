@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <div>
+      <Header />
       <Logo />
       <h1 class="title">enjoy-life</h1>
       <div class="links">
@@ -21,6 +22,7 @@
           GitHub
         </a>
       </div>
+      <Footer />
     </div>
   </div>
 </template>
