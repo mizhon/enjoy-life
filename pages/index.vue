@@ -1,9 +1,8 @@
 <template>
-  <div class="container">
-    <div>
-      <Header />
+  <div class="main-container">
+    <div class=""> 
       <Logo />
-      <h1 class="title">enjoy-life</h1>
+      <!-- <h1 class="title">enjoy-life</h1> -->
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -21,8 +20,7 @@
         >
           GitHub
         </a>
-      </div>
-      <Footer />
+      </div>    
     </div>
   </div>
 </template>
@@ -34,10 +32,9 @@ export default Vue.extend({})
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
+.main-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
