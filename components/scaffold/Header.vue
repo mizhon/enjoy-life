@@ -36,6 +36,7 @@ export default Vue.extend({
     .banner {
       padding: 0 20px;
       line-height: 70px;
+      cursor: pointer;
       img {
         height: 64px;
       }
