@@ -2,7 +2,7 @@
   <div class="main-container">
     <div class=""> 
       <Logo />
-      <!-- <h1 class="title">enjoy-life</h1> -->
+      <h1 class="title">enjoy-life</h1>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -11,6 +11,38 @@
           class="button--green"
         >
           Documentation
+        </a>
+        <a
+          href="https://github.com/nuxt/nuxt.js"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button--grey"
+        >
+          GitHub
+        </a>
+        <a
+          href="https://github.com/nuxt/nuxt.js"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button--grey"
+        >
+          GitHub
+        </a>
+        <a
+          href="https://github.com/nuxt/nuxt.js"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button--grey"
+        >
+          GitHub
+        </a>
+        <a
+          href="https://github.com/nuxt/nuxt.js"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button--grey"
+        >
+          GitHub
         </a>
         <a
           href="https://github.com/nuxt/nuxt.js"
@@ -45,7 +77,7 @@ export default Vue.extend({})
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 28px;
   color: #35495e;
   letter-spacing: 1px;
 }
